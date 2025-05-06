@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teclado de Telefone</title>
+    <style>
+        .teclado {
+            width: 150px;
+            margin: 50px auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 5px;
+        }
+        .teclado button {
+            width: 100%;
+            height: 40px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .display {
+            width: 100%;
+            height: 40px;
+            text-align: right;
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 18px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" class="display" id="display" disabled>
+    <div class="teclado">
+        <button onclick="adicionarValor('1')">1</button>
+        <button onclick="adicionarValor('2')">2 ABC</button>
+        <button onclick="adicionarValor('3')">3 DEF</button>
+        <button onclick="adicionarValor('4')">4 GHI</button>
+        <button onclick="adicionarValor('5')">5 JKL</button>
+        <button onclick="adicionarValor('6')">6 MNO</button>
+        <button onclick="adicionarValor('7')">7 PQRS</button>
+        <button onclick="adicionarValor('8')">8 TUV</button>
+        <button onclick="adicionarValor('9')">9 WXYZ</button>
+        <button onclick="adicionarValor('*')">*</button>
+        <button onclick="adicionarValor('0')">0</button>
+        <button onclick="adicionarValor('#')">#</button>
+    </div>
+
+    <script>
+        function adicionarValor(valor) {
+            document.getElementById('display').value += valor;
+        }
+    </script>
+</body>
+</html>

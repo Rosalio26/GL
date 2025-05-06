@@ -1,0 +1,52 @@
+
+<style>
+    .cnt-new-user-wel
+    {
+        background-color: rgba(43, 91, 163, 0.336);
+        border: 2px solid rgba(0, 71, 151, 0.699);
+        border-radius: 5px;
+        box-shadow: 1px 1px 20px 2px #42464d65;
+        width: 350px;
+        margin: 40px auto;
+        padding: 5px;
+    }
+
+    .cnt-new-user-wel a 
+    {
+        color: rgb(218, 234, 255);
+        background-color: rgba(0, 102, 255, 0.479);
+        border: 2px solid rgba(255, 255, 255, 0.432);
+        border-radius: 5px;
+
+        font-family: poppis-light;
+        font-size: 11pt;
+
+        display: block;
+        width: max-content;
+        margin: 20px auto;
+        padding: 5px;
+    }
+
+    .cnt-new-user-wel p.wel-tlt
+    {
+        font-size: 12pt;
+        text-transform: uppercase;
+        padding: 10px;
+    }
+
+    .wel-cntxt
+    {
+        color:  rgb(167, 180, 216);
+        font-family: poppis-light;
+        font-size: 10pt;
+        letter-spacing: 2px;
+        padding: 5px;
+        line-height: 25px;
+    }
+</style>
+
+<div class="cnt-new-user-wel">
+    <p class="wel-tlt">Bem - vindo <span class="usename-con-wel"><?php echo $user_details['username_hw']; ?></span> </p>
+    <p class="wel-cntxt">Se ainda nao tens amigos activos, faca um para poder visualizar os seus posts e ver seus detalhes.</p>
+    <a href="">Criar amizades</a>
+</div>

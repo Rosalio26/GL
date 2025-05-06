@@ -1,0 +1,46 @@
+
+@charset "UTF-8";
+
+* 
+{
+	color: #333;
+	font-family: poppis-light;
+	text-decoration: none;
+
+	border: none;
+	outline: none;
+
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: poppis-light;
+    src: url('./font/Poppins-Light.ttf');
+}
+@font-face {
+    font-family: poppis-medium;
+    src: url('./font/Poppins-Medium.ttf');
+}
+
+input:focus
+{
+	background-color: transparent;
+}
+
+input, button
+{
+	background: transparent;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button
+{
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number]
+{
+	-moz-appearance: textfield;
+}

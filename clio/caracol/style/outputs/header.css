@@ -1,0 +1,120 @@
+.header {
+    color: #ccc;
+    background-color: #2f2fff;
+    overflow: hidden;
+
+    width: 100vw;
+    height: 15vh;
+    padding: 2px;
+    z-index: 1000;
+}
+
+.headerCol, .areaLogo, .hd-row, .prisma, .navBar, .conservator {
+    display: flex;
+    align-items: center;
+}
+
+.headerCol {
+    gap: 50px;
+    height: 100%;
+}
+
+.navBar, .prisma {
+    gap: 20px;
+}
+
+/*
+=============
+====Logo=====
+*/
+.areaLogo {
+    justify-content: center;
+    border-right: 5px solid tomato;
+    width: 15%;
+    height: 50%;
+}
+
+a.logo-btn {
+    color: #fff;
+    display: block;
+    font-size: 20pt;
+    font-weight: bold;
+    letter-spacing: .03em;
+}
+/*Fim area logo*/
+
+.hd-row {
+    height: 40%;
+    padding: 10px;
+}
+
+.hd-row-1 {
+    border-bottom: 2px solid #231d1cb9;
+}
+
+/*
+============================
+======Campo de procura======*/
+.hd-search {
+    background-color: rgb(1, 7, 56);
+    border-radius: 100px;
+    padding: 5px;
+    
+}
+
+.in-search {
+    background-color: #eee;
+    width: 250px;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+/*Fim Campo de procura*/
+
+/*
+======================
+=======Buttoes========*/
+.hd-btn {
+    display: none;
+}
+
+.hd-link-btn {
+    color: #fff;
+    font-size: 11pt;
+    font-weight: bold;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 2px 6px;
+    font-weight: 400;
+}
+
+.hd-link-btn:hover {
+    color: #000;
+    background-color: #aaa;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px #444;
+    transition: .3s;
+}
+
+.btn-search {
+    padding: 3px 5px;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 11pt;
+    font-weight: bold;
+    color: #eee;
+}
+/*====fim buttoes====*/
+
+/*
+======================
+========Sticke========*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* 
+.sticky + .main {
+    padding-top: 102px;
+} */

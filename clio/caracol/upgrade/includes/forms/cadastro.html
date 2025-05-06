@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="../../style/homeStyle.css">
+</head>
+<body>
+    <main>
+        <div class="cnt-lg-cd">
+            <div class="row-lg-cd">
+                <div>    
+                    <div class="login-text">
+                        <h1>Cadastro</h1>
+                    </div>
+                    <form action="cadastro.php" method="post">
+                        <hr class="hl-frt-lg-cd">
+                        <div class="sep-itm-cd">
+                            <div class="info-person">
+                                <div class="cnt-lbf">
+                                    <label class="lb-txt" for="idname">Nome</label> <br>
+                                    <input class="inp-lg-cd" type="text" name="name" id="idname">
+                                    <span class="error"></span>
+                                </div>
+                                <div class="cnt-lbf">
+                                    <label class="lb-txt" for="idsurname">Sobrenome</label> <br>
+                                    <input class="inp-lg-cd" type="text" name="surname" id="idsurname" required>
+                                </div>
+                                <div class="cnt-lbf">
+                                    <label class="lb-txt" for="iduser">ID-Usuario</label> <br>
+                                    <input class="inp-lg-cd" type="text" name="usuario" id="iduser" required>
+                                </div>
+                            </div>
+                            <div class="cmp-email-pass">
+                                <div class="cnt-lbf">
+                                    <label class="lb-txt" for="idemail">Email</label> <br>
+                                    <input class="inp-lg-cd" type="email" name="email" id="idemail" required>
+                                </div>
+                                <div class="cnt-lbf">
+                                    <label class="lb-txt" for="idpass">Palavra-Passe</label> <br>
+                                    <input class="inp-lg-cd" type="password" name="password" id="idpass" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-sub">
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </form>
+                    <div class="not_loged">
+                        <span class="lk-cd-lg">Já tenho conta sorridente.<a href="./login.html" class="not-log-cad">Fazer Login.</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,478 @@
+
+/*
+====================================================================================================
+====================================================================================================
+====================================================================================================
+*/
+
+.body_profile
+{
+	padding-top: 20px;
+}
+
+button
+{
+	background-color: transparent;
+}
+
+.break_info_user
+{
+	border-bottom: 1px solid #333;
+	height: 20%;
+
+	display: flex;
+}
+
+.photo_img_profile
+{
+	border-right: 1px solid #3333;
+	width: 35%;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.cnt-user-icon
+{
+	border-radius: 2000px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 120px;
+	height: 120px;
+	overflow: hidden;
+}
+
+.icon-sml-img
+{
+	width: 100%;
+	height: 100%;
+}
+
+.oth_info_profile
+{
+	width: 65%;
+	height: 100%;
+}
+
+.oth_info
+{
+	height: 33.333333333333333333333333333333%;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+	padding: 0px 10px;
+}
+
+.user_name
+{
+	border-bottom: 1px solid #3333;
+}
+
+.unkw_stg_1
+{
+	border-bottom: 1px solid #3331;
+}
+
+.unkw_stg_2
+{
+}
+
+
+.tlt-span-jub
+{
+	font-family: poppis-medium;
+	font-size: 12pt;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.cnt-span-jub
+{
+	font-family: poppis-light;
+	font-size: 11pt;
+	font-weight: 100;
+}
+
+
+/*
+====================================================================================================
+====================================================================================================
+====================================================================================================
+*/
+.btns_inc_state
+{
+	border-bottom: 1px solid #333;
+	height: 6%;
+	display: flex;
+	align-items: center;
+}
+
+.esc_cnt
+{
+	display: flex;
+	align-items: center;
+	width: 93%;
+}
+
+.flet-setting-btn
+{
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+	border-left: 1px solid #333;
+	border-radius: 5px 0px 0px 5px;
+	width: 7%;
+	height: 80%;
+	padding: 3px 0px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cnt-set-bool
+{
+	display: block;
+	background-color: #666;
+	border-radius: 1000px;
+	width: 7px;
+	height: 7px;
+}
+
+.block-flet
+{
+	display: none;
+    background-color: #0c0c16;
+	border: 1px solid #333;
+	border-radius: 10px;
+	position: fixed;
+	top: 25%; right: 1%;
+	width: 65%;
+	height: 250px;
+	padding: 10px;
+	z-index: 1px;
+}
+
+.block-flet > ul > li > a
+{
+	display: block;
+	border: 1px solid #333;
+	border-radius: 5px;
+	font-family: poppis-light;
+	font-size: 11pt;
+	font-weight: 100;
+	text-transform: capitalize;
+	letter-spacing: 0.7px;
+
+	margin: 10px 0px;
+	padding: 5px 10px;
+} 
+
+.close-flet-block
+{
+	width: 100%;
+	height: 13%;
+	position: relative;
+}
+
+.close-flet-block span
+{
+	border: 1px solid #3332;
+	border-radius: 5px;
+	font-size: 12pt;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	padding: 5px 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.flet_itm
+{
+	height: max-content;
+}
+
+.lk_btn_ril
+{
+	font-size: 0.8rem;
+	text-align: center;
+	text-transform: lowercase;
+
+	display: block;
+	border: 1px solid #333;
+	border-radius: 10px;
+	margin: 0px 3px;
+	padding: 3px 10px;
+	width: 60px;
+}
+
+.home-lk-ps
+{
+	background-color: #4445;
+	text-transform: uppercase;
+	border-radius: 0px;
+	padding: 10px 0px;
+}
+
+.find_friend
+{
+	border: 1px solid #333;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+}
+
+.bnt-sub-icons-back
+{
+	width: 20%;
+	height: 100%;
+	border-right: 1px solid #333;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 10px;
+}
+
+.img-icon
+{
+	width: 30px;
+	height: 30px;
+}
+
+.find_friend input
+{
+	font-size: 1rem;
+	background-color: transparent;
+	width: 80%;
+	height: 100%;
+	padding: 0px 5px;
+}
+
+.itm-link-ven
+{
+	text-transform: lowercase;
+	font-size: 1rem;
+	font-family: poppis-light;
+	border: 1px solid #333;
+
+	padding: 3px 10px;
+	border-radius: 10px;
+}
+
+.my-col-post
+{
+	padding: 25px 15px;
+}
+
+.cnt-inf-list
+{
+	border: 1px solid #333;
+	border-radius: 10px;
+	margin: 10px 0px;
+	font-size: 1rem;
+	text-transform: capitalize;
+	letter-spacing: 1.5px;
+	padding: 5px 30px 5px 20px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.link-couv-inc
+{
+	font-size: 0.9rem;
+	font-family: poppis-light;
+	border: 1px solid #333;
+	border-radius: 10px;
+	padding: 3px 20px;
+}
+
+
+
+/*
+====================================================================================================
+====================================================================================================
+====================================================================================================
+*/
+.rec_inc_state
+{
+	height: 70%;
+	overflow-y: auto;
+}
+
+.asp_profile
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+} 
+
+@media (min-width: 1024px) {
+	.asp_profile
+    {
+        width: 70%;
+        height: 100%;
+        margin: 0px auto;
+    } 
+}
+
+
+.nav-post
+{
+	padding: 10px 0px;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.tlt-post
+{
+	font-size: 16pt;
+	font-family: poppis-medium;
+	letter-spacing: 1px;
+	padding: 10px 0px;
+}
+
+.cnt-itm-post
+{
+	background-color: #3338;
+	border-radius: 15px;
+	display: flex;
+	gap: 10px;
+	padding: 10px 15px;
+	overflow-x: auto;
+}
+
+.cnt-link-post-btn-et
+{}
+
+.link-post-btn-et
+{
+	font-size: 12pt;
+	font-family: poppis-light;
+	letter-spacing: 1.5px;
+	display: block;
+
+	background-color: #333;
+	border-radius: 10px;
+	padding: 2px 7px;
+}
+
+.cnt-info-hidden
+{
+	background-color: #3332;
+	border: 1px solid #4448;
+	border-radius: 5px;
+	text-align: center;
+	padding: 30px;
+	width: 100%;
+	margin: 30px auto;
+}
+
+.no-post
+{
+	font-family: poppis-light;
+	padding: 10px 0px;
+}
+
+.nothing-et
+{
+
+}
+
+.create-et
+{
+	background-color: #4446;
+	border-radius: 10px;
+	display: inline-block;
+	width: max-content;
+	margin: 0px auto;
+	padding: 10px 15px;
+}
+
+.cnt-info-posts
+{
+	background-color: #3332;
+	border-radius: 5px;
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	margin: 30px auto;
+}
+
+.tlt-content-post{
+	font-size: 14pt;
+	font-family: poppis-medium;
+	letter-spacing: 1.2px;
+	text-align: left;
+	text-transform: capitalize;
+	padding: 5px 0px;
+}
+
+.cnt-item-content-post
+{
+	background-color: #4442;
+	border-radius: 5px;
+	width: 100%;
+	height: 300px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.lk_btn_nw
+{
+	display: inline-block;
+	border: 1px solid #4448;
+	border-radius: 10px;
+	margin: 10px 0px;
+	margin-top: 30px;
+	padding: 5px 10px;
+}
+
+.cnt-btn-back
+{
+	background-color: #4444;
+	border: 1px solid #4448;
+	border-radius: 7px;
+	position: fixed;
+	left: 5%;
+	bottom: 3%;
+}
+
+.btn-back
+{
+	width: 100%;
+	height: 100%;
+	padding: 3px 10px;
+}
+
+.tlt-nm-post
+{
+	font-size: 12pt;
+	font-family: poppis-light;
+	border-bottom: 2px solid #4443;
+	padding: 5px 0px;
+}
+
+/*
+====================================================================================================
+================= DETALHES DO USUARIO===============================================================
+====================================================================================================
+*/
+
+.header-view-details-friend
+{}
+

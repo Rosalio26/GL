@@ -1,0 +1,48 @@
+
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppis", sans-serif;
+    letter-spacing: 1px;
+}
+
+/*====================================
+======================================
+=======Defini��o de roots gerais
+*/
+
+/*====================================
+=======Definicao de root de cores
+*/
+:root {
+    --color-primary: #ffffff;
+    --color-secondary: #000000;
+    --background-primary: #ffffff;
+    --background-secondary: #000000;
+    --background-sec-stap-0001: #333333;
+}
+
+:root {
+    --width-init-windows: 100vw;
+    --height-init-windows: 100vw;
+}
+
+:root {  
+    --display-gen-win-001: flex;
+    --align-display-gen-win-001: center;
+    --justify-display-gen-win-001: center;
+}
+
+#init_windows {
+    color: var(--color-primary);
+    background: var(--background-sec-stap-0001);
+    position: fixed;
+    width: var(--width-init-windows);
+    height: var(--height-init-windows);
+    display: var(--display-gen-win-001);
+    align-items: var(--align-display-gen-win-001);
+    justify-content: var(--justify-display-gen-win-001);
+}

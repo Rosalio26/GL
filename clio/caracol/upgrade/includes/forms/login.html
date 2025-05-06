@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Seccao</title>
+    <link rel="stylesheet" href="../../style/homeStyle.css">
+</head>
+<body>
+    <div class="cnt-lg-cd">
+        <div id="emer-login" class="row-lg-cd">
+            <div class="col">
+                <div class="login-text">
+                    <h1>Login</h1>
+                </div>
+                <hr class="hl-frt-lg-cd">
+                <form class="login-form" action="login.php" method="post">
+                    <div class="cnt-lbf">
+                        <label class="lb-txt" for="iduser">ID-Usuario</label> <br>
+                        <input class="inp-lg-cd" type="text" name="usuario" id="iduser" required>
+                    </div>
+                    <div class="cnt-lbf">
+                        <label class="lb-txt" for="idpass">Palavra-Passe</label> <br>
+                        <input class="inp-lg-cd" type="password" name="password" id="idpass" required>
+                    </div>
+                    <div class="btn-sub">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+                <div class="not_loged">
+                    <span class="lk-cd-lg">Não tenho conta. <a href="./cadastro.html" class="not-log-cad">Cadastrar.</a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

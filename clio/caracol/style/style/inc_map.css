@@ -1,0 +1,97 @@
+
+
+div.print_leth{
+    background-color: #0200235e;
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+
+.frMap {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+
+.list {
+    background-color: #222;
+    background-size: cover;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+#listFirst {
+    background-image: url("../midia/progrm-on-img-lk.jpg");
+}
+
+#listSecond {
+    background-image: url("../midia/eletro-on-img-lk.jpg");
+}
+
+#listThird {
+    background-image: url("../midia/html-css.jpg");
+}
+
+#listFourd {
+    background-image: url("../midia/mat-on-img-lk.jpg");
+}
+
+.cntList {
+    width: 100%;
+}
+
+.cntList p {
+    font-size: 15pt;
+    font-weight: bold;
+    color: #fff;
+    background-color: #00001b;
+    border: 1px solid #fff;
+    border-left: none;
+    border-radius: 0px 10px 10px 0px;
+    width: 70%;
+    padding: 10px 0px 10px 10px;
+}
+
+.boxTop {
+    background-color: #050310d9;
+    border-bottom: 1px solid #fff;
+    border-radius: 10px 10px 10px 10px;
+    height: 70%;
+
+    display: flex;
+    align-items: center;
+}
+
+.boxBottom {
+    background-color: transparent;
+    border-radius: 0px 0px 10px 10px;
+    height: 30%;
+    position: relative;
+}
+
+.btnStud {
+    display: block;
+    color: #fff;
+    font-size: 13pt;
+    font-weight: 500;
+
+    background-color: #6600ff;
+    border: 1px solid #fff;
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+    outline: none;
+    position: absolute;
+    top: 0;
+    margin-left: 32%;
+    padding: 7px 20px;
+}

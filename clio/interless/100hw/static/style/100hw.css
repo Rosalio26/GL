@@ -1,0 +1,1508 @@
+@charset "UTF-8";
+
+*
+{
+    color: #aaa;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+
+    font-family: poppis-medium;
+    font-weight: 100;
+    font-size: 12pt;
+    letter-spacing: 1px;
+    text-decoration: none;
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: poppis-light;
+    src: url('./font/Poppins-Light.ttf');
+}
+@font-face {
+    font-family: poppis-medium;
+    src: url('./font/Poppins-Medium.ttf');
+}
+
+/*
+==================================
+=======Admin Config Style=========
+==================================
+*/
+.body-gr
+{
+    background-color: #0c0c16;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden hidden;
+}
+
+.esc-inc-cnt
+{
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    overflow: hidden;
+}
+
+/*
+=========================Inicio Lado Direito // Baixo
+*/
+
+.cnt-esc-rgh
+{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 10px 5px;
+    z-index: 1000;
+}
+
+
+
+.item-cnt-rgh
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+
+    border: 1px solid #333;
+    border-radius: 7px;
+    padding: 5px 5px;
+}
+/*
+=========================Fim Lado Direito // Baixo
+*/
+
+/*
+=========================Inicio Lado Centro
+*/
+.cent-cnt
+{
+    background-color: #6895b50e;
+    border-radius: 10px;
+    padding: 5px;
+    height: 100%;
+    z-index: 10;
+
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.add-conf-link,
+.add-conf-link a,
+.cnt-asc-temp-link a
+{
+    font-size: 11pt;
+    font-family: poppis-light;
+}
+
+.add-conf-link a img {
+    width: 15px;
+}
+
+.add-conf-link a,
+.cnt-asc-temp-link a
+{
+    align-items: center;
+    display: flex;
+    gap: 3px;
+}
+
+.add-conf-link
+{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+}
+
+.add-conf-link a{
+    border: 1px solid #333;
+    border-radius: 5px 5px 0px 0px;
+    margin-left: 5px;
+    padding: 3px;
+}
+
+.cnt-asc-temp-link
+{
+    border-bottom: 1px solid #333;
+    display: flex;
+    gap: 10px;
+
+    position: relative;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.link-new
+{
+    text-wrap: nowrap;
+    display: block;
+    width: max-content;
+    border: 1px solid #333;
+    border-radius: 7px;
+    padding: 5px 10px;
+}
+
+.link-new img
+{
+    width: 20px;
+}
+
+.cnt-link-request
+{
+    background-color: #50a2ff08;
+    /* height: 400px; */
+    padding: 10px;
+    /* overflow-y: auto; */
+}
+/*
+===========================================================================================================
+===========================================================================================================
+===========================================================================================================
+===========================================================================================================
+*/
+/* #body_new
+{
+    flex-direction: column;
+    overflow: hidden;
+
+    width: 100%;
+    height: 10%;
+} */
+
+.cnt-new-asp
+{
+    border: 1PX solid #333;
+    border-radius: 10PX;
+    width: 90%;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#asp-new
+{
+    margin: 40px auto;
+}
+
+.post-friend
+{
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.adv-oth
+{
+    width: 100%;
+    height: 60vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* padding-bottom: 40px; */
+}
+
+.lk-oct
+{
+    font-size: 0.9rem;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lk-oct img 
+{
+    width: 25px;
+}
+
+.icon-img
+{
+    width: 30px;
+}
+
+li.link-li-sub
+{
+    font-family: poppis-light;
+    font-size: 0.9rem;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+}
+
+.link-req
+{
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 4px 10px;
+    display: inline;
+}
+
+.add-non-lk
+{
+    font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+.desf_find
+{
+    border: 1px solid #222;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 5px 10px;
+}
+
+#find_user_name
+{
+    width: 65%;
+}
+
+#find_user_req
+{
+    width: 35%;
+    border: 1px solid #222;
+    text-align: center;
+}
+
+.find_user_result
+{
+    font-family: poppis-light;
+    font-size: 0.9rem;
+    letter-spacing: 1.5px;
+}
+
+.has_no_test
+{
+
+    border: 1px solid #333;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+/*
+=======================================
+================== 27 . 01 . 2025======
+=======================================
+*/
+.cnt-oth-info
+{
+    /*background-color: blue;*/
+    border-bottom: 2px solid #3333;
+    width: 100vw;
+}
+
+.cnt-oth-info ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+}
+
+.cnt-cnn-itm
+{
+    display: flex;
+    gap: 40px;
+}
+
+.ic-stp-sell
+{
+    border: 1px solid #2225;
+    border-radius: 10px;
+    background-color: transparent;
+/*    width: 70px;*/
+    padding: 3px 10px;
+    text-align: center;
+}
+
+
+/*
+===========================================================================================================
+===========================================================================================================
+===========================================================================================================
+===========================================================================================================
+*/
+.est-cnt-item
+{
+    border: 1px solid #ff00004c;
+    border-radius: 10px;
+    width: 99%;
+    height: 98.5%;
+}
+
+
+/*
+==================================
+========USER CONFIG STYLE=========
+==================================
+*/
+.cnt-fles-itm
+{
+    display: block;
+    width: 100%;
+    height: 92%;
+    overflow: hidden;
+}
+
+
+/*
+=============================================
+===CONFIGURAÇÃO DA JANELA ESQUERDO / CIMA====
+=============================================
+*/
+
+/* #cnt-lef-itm
+{
+    background-color: #041d35;
+    border-bottom: 1px solid #3335;
+    z-index: 1000;
+} */
+
+#fecharcnt
+{
+    display: none;
+}
+
+.cnt-lef-username
+{
+    border-radius: 1000px;
+    padding: 0px 0px;
+    overflow: hidden hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cnt-user-icon
+{
+    border-radius: 1000px;
+    display: block;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.cnt-user-txt
+{
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    width: 100px;
+
+    padding: 2px 3px;
+    display: block;
+}
+
+
+/*.cnt-lef-quick-view
+{
+    width: 50px;
+    height: 60%;
+    overflow: hidden hidden;
+}*/
+
+.icon-ls
+{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+.icon-sml-img
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.btn-menu-navbar
+{
+    display: block;
+    width: 40px;
+    height: 18px;
+    background: transparent;
+    position: relative;
+    z-index: 100;
+}
+
+.btn-menu-navbar::before,
+.btn-menu-navbar::after
+{
+    content: " ";
+    background: #a9a9c3;
+    border-radius: 100px;
+    position: absolute;
+    height: 5px;
+}
+
+.btn-menu-navbar::after
+{
+    width: 80%;
+    right: 0;
+    top: 0;
+}
+
+.btn-menu-navbar::before
+{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.btn-menu-navbar
+{
+    display: block;
+}
+/*Configuracao da NAVBAR*/
+.ass-spa
+{
+    background-color: #0c0c16;
+    border-bottom: 1px solid #444;
+    width: 100%;
+    height: 5%;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ass-spa-cnt
+{
+    background-color: #0c0c16;
+    border-bottom: 1px solid #444;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    display: none;
+}
+
+.ass-spa-cnt button
+{
+    background-color: transparent;
+}
+
+.btn-cnt-close
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 13%;
+    height: 100%;
+}
+
+.nav-cnt-home
+{
+    background-color: rgb(14, 27, 41);
+    display: none;
+
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 900;
+}
+
+#btnCloseNavBar
+{
+    background-color: #00000f1e;
+    position: absolute;
+    font-size: 1.3rem;
+    right: 0;
+
+    height: 90%;
+    width: 15%;
+}
+
+.nav-cnt-home.openNavBar
+{
+    display: block;
+}
+
+.cnt-lk
+{
+    border: .1px solid #333;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.cnt-lk a
+{ 
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 12pt;
+    font-family: poppis-light;
+    letter-spacing: 1.2px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 2px 10px;
+    overflow: hidden;
+}
+
+/*
+=============================================
+=======CONFIGURAÇÃO DA JANELA DE CETRO=======
+=============================================
+*/
+.cnt-esc-cet
+{
+    width: 99%;
+    height: 86%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-lef-tgg
+{
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    top: 10px;
+    left: 10px;
+
+    border: 1px solid #a9a9c3;
+    border-radius: 10px;
+    width: 50px;
+    height: 25px;
+}
+
+.btn-lef-tgg.btnForm
+{
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+}
+
+/*
+=============================================
+===CONFIGURAÇÃO DA JANELA DIREITO / BAIXO====
+=============================================
+*/
+
+.cnt-tr-itm
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+/*    border-bottom: 1px solid #3336;*/
+
+    width: 100%;
+/*    height: 100%;*/
+    padding: 10px 10px 0px 10px;
+}
+
+
+.icon-sml
+{
+    width: 22px;
+}
+
+.text-inc-less
+{
+    font-family: poppis-light;
+    font-size: 10pt;
+}
+
+.acn-ac-nav, .cnt-act-hed
+{
+    display: flex;
+    align-items: center;
+/*    justify-content: space-between;*/
+}
+
+.acn-ac-nav
+{
+    border-radius: 5px;
+    padding: 0px 5px;
+    width: 100%;
+    z-index: 10;
+}
+
+.cnt-act-hed
+{
+    width: 100%;
+}
+
+.conf-sst
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        width: 70%;
+        padding: 10px;
+    }
+
+/*
+==================================
+===========SCREEN 450PX===========
+==================================
+*/
+@media (min-width: 450px) {
+
+    .btn-lef-tgg
+    {
+        display: block;
+    }
+
+    .cnt-esc-cet
+    {
+        height: 100%;
+    }
+
+    .cnt-lk
+    {
+        border: .1px solid #333;
+        border-radius: 10px;
+        width: 80%;
+        margin-top: 10px;
+        padding: 5px 10px;
+    }
+    
+    .cnt-lk a
+    { 
+        font-size: 0.8rem;
+        font-family: poppis-light;
+        letter-spacing: 1.2px;
+    }
+
+    .cnt-esc-lef
+    {
+        background-color: transparent;
+        display: none;
+        position: absolute;
+        top: 0; left: 0;
+        z-index: 1;
+        width: 50%;
+        height: 90%;
+    }
+    .cnt-esc-lef.opencnt
+    {
+        display: block;
+    }
+
+    #cnt-lef-itm
+    {
+        border-bottom: none;
+        display: block;
+    }
+
+    .cnt-tr-itm
+    {
+        background-color: #050a0efc;
+        width: 100%;
+        height: 100%;
+        padding: 0px 5px;
+    }
+
+    #cnt-lef-itm 
+    {
+        width: 60%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 13;
+    }
+
+    .nav-cnt-home
+    {
+        margin-top: 20px;
+        position: relative;
+        display: block;
+        
+    }
+
+    .conf-sst
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        width: 100%;
+        padding: 0;
+    }
+
+    .acn-ac-nav
+    {
+        background-color: rgb(4, 6, 15);
+        border-bottom: 1px solid #333;
+        display: block;
+        width: 100%;
+    }
+    
+    .cnt-act-hed
+    {
+        padding: 30px 20px;
+    }
+
+    .btn-lef-tgg
+    {
+        cursor: pointer;
+        display: block;
+    }
+
+    .cnt-esc-cet
+    {
+        height: 100%;
+    }
+
+    #fecharcnt
+    {
+        display: block;
+        
+    }
+
+    .cnt-lef-username
+    {
+        border: none;
+    }
+
+    .cnt-lef-quick-view
+    {
+        border: none;
+    }
+
+    .btn-menu-navbar
+    {
+        display: none;
+    }
+
+    .ass-spa
+    {
+        display: none;
+    }
+
+    .ass-spa-cnt
+    {
+        display: flex;
+    }
+
+    .cnt-new-asp
+    {
+        width: 400px;
+        margin: 0px auto;
+    }
+}
+
+
+
+/*
+==================================
+===========SCREEN 661PX===========
+==================================
+*/
+@media (min-width: 661px) {
+    
+
+    #body-home-hw-user
+    {
+        display: flex;
+        align-items: center;
+    }
+
+    /* .esc-inc-cnt
+    {
+        background-color: #0d1b27;
+        border-radius: 5px;
+        border: 3px solid #072533;
+        display: flex;
+        width: 90%;
+        height: 90%;
+        margin: auto auto;
+        padding: 10px;
+        position: relative;
+        overflow: hidden;
+    } */
+    
+    .btn-lef-tgg
+    {
+        display: none;
+    }
+
+    #fecharcnt
+    {
+        display: none;
+    }
+
+    .cnt-esc-lef
+    {
+        display: block;
+        position: relative;
+        width: 15%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .cnt-act-hed
+    {
+        padding: 0px;
+    }
+
+    .cnt-lef-username
+    {
+        background-color: red;
+        padding: 0px;
+        width: 50px;
+        height: 50px;
+        margin: 20px auto;
+    }
+    
+    .cnt-user-icon
+    {
+        border-radius: 1000px;
+        display: block;
+        width: 50px;
+        overflow: hidden;
+    }
+
+    #cnt-lef-itm 
+    {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .cnt-lk a
+    {
+        padding: 0;
+        justify-content: center;
+        margin: 0px auto;
+    }
+
+    .ascend-item-link-left
+    {
+        display: none;
+        font-size: 9pt;
+    }
+
+    .cnt-fles-itm
+    {
+        display: flex;
+        width: 100%;
+        height: 90%;
+    }
+
+    .cnt-esc-cet
+    {
+        width: 83%;
+        height: 100%;
+    }
+
+    .ass-spa-cnt
+    {
+        display: none;
+    }
+}
+
+
+/*
+==================================
+==========SCREEN 1020PX===========
+==================================
+*/
+@media (min-width: 1020px) {
+
+    .ascend-item-link-left
+    {
+        display: inline;
+        font-family: poppis-light;
+        font-size: 11pt;
+    }
+
+    .cnt-fles-itm
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+    .cnt-esc-lef
+    {
+        display: block;
+        width: 35%;
+    }
+    
+    #cnt-lef-itm 
+    {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 14;
+    }
+
+    .cnt-esc-cet
+    {
+        width: 70%;
+        height: 100%;
+    }
+
+    .rest-ft-fall
+    {
+        width: 20%;
+        height: 100%;
+    }
+
+
+    .nav-cnt-home
+    {
+        background-color: transparent;
+        display: block;
+        position: relative;
+        z-index: 10;
+
+        width: 300px;
+    }
+
+    .cnt-lk
+    {
+        border: 1px solid #333;
+        border-radius: 10px;
+        width: 80%;
+        margin-top: 10px;
+        padding: 5px 10px;
+    }
+    
+    .cnt-lk a
+    { 
+        font-family: poppis-light;
+        font-size: 11pt;
+        justify-content: left;
+        letter-spacing: 1.2px;
+    }
+
+    
+    .logic-new-forum
+    {
+        border: 1px solid #333;
+        width: 900px;
+        margin: 20px auto;
+    }
+
+    .adv-oth
+    {
+        margin-top: 20px;
+    }
+
+    #provisouly-new-header
+    {
+        display: flex;
+        justify-content: space-between;
+
+        border-bottom: 1px solid #333;
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    
+}
+
+.user-info
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0px 15px 30px;
+}
+
+.logic-new-forum
+{
+    padding: 10px 0px;
+}
+
+.adan-li-previu
+{
+    text-align: right;
+}
+
+
+.file-input-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #6661;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cascading, 
+.cascading-music-file-input,
+.cascading-photo-file-input,
+.cascading-video-file-input
+{
+    background-color: transparent;
+    width: 30%;
+    height: 30%;
+    margin: 0px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px; 
+}
+
+
+.image-background {
+    background-image: url('./icon/media_files/creator.png'); /* Caminho para a imagem */
+}
+
+.cascading-video-file-input {
+    background-image: url('./icon/media_files/add-video.png'); /* Caminho para o vídeo */
+}
+
+.cascading-music-file-input {
+    background-image: url('./icon/media_files/add-to-playlist.png'); /* Caminho para a música */
+}
+
+.cascading-photo-file-input {
+    background-image: url('./icon/media_files/image.png'); /* Caminho para a foto */
+}
+/*
+==================================================================
+==================================================================
+==================================================================
+*/
+
+.cnt-inf-imagem
+{
+    background-color: rgb(0, 25, 32);
+    border: 1px solid #4448;
+    border-radius: 10px;
+    position: fixed;
+    width: 250px;
+    height: 200px;
+    top: 9%; left: 2%;
+    z-index: 1000;
+
+    display: none;
+}
+
+.cnt-inf-imagem > div.cnt-close-btn
+{
+    position: relative;
+    height: 30px;
+    margin: 5px 10px;
+}
+
+.cnt-inf-imagem > div.cnt-close-btn > button
+{
+    background-color: #4446;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 0px 20px;
+    z-index: 1010;
+}
+
+.cnt-user
+{
+    text-transform: uppercase;
+    padding: 0px 10px 5px 10px;
+    border-bottom: 1px solid #999;
+}
+
+.cnt-lk-inf
+{
+    cursor: pointer;
+    font-family: poppis-light;
+    font-weight: 100;
+    display: block;
+    width: 95%;
+    border: 1px solid #999;
+    border-radius: 10px;
+    margin: 15px auto;
+    padding: 5px 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+img.icon-img {
+    width: 20px;
+}
+
+.cnt-lk-inf:hover img.icon-img
+{
+    width: 28px;
+}
+
+.cnt-lk-inf:hover
+{
+    background-color: #5559;
+}
+
+.dangerous-act
+{
+    background-color: #c800002b;
+    border: 1px solid red;
+}
+
+.dangerous-act:hover
+{
+    background-color: #c8000080;
+}
+
+
+
+/*
++++++++++++++++++++++++++++++
++++++++++++++Posts OF Friends
++++++++++++++++++++++++++++++
+*/
+
+.cnt-post-grl
+{
+    background-color: #0f192aa2;
+    border: 1px solid #333;
+    border-radius: 10px;
+    width: 380px;
+    margin: 20px auto;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-username, .title-post-conf
+{
+    background-color: transparent;
+    width: 100%;
+    height: 30px;
+    padding-left: 7px;
+    overflow: hidden;
+
+    font-family: poppis-light;
+    font-size: 11pt;
+}
+
+
+/* form.details-form
+{
+    background-color: red;
+    width: 100%;
+    height: 10%;
+} */
+
+input
+{
+    font-family: poppis-light;
+    font-size: 11pt;
+
+    background-color: transparent;
+    width: 100%;
+    text-align: left;
+}
+
+.title-post-conf
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #333;
+    border-radius: 0px 5px 0px 0px;
+}
+
+.nav-cnt-toogle-title-cnt
+{
+    background-color: transparent;
+    width: 50px;
+    height: 100%;
+}
+
+.toogle-title-cnt
+{
+    background-color: transparent;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.btn-bool
+{
+    background-color: #666;
+    border-radius: 100%;
+    width: 8.5px;
+    height: 8.5px;
+}
+
+
+.cnt-tst
+{
+    background-color: #0002433e;
+    border-bottom: 1px solid #333;
+    border-radius: 5px;
+    height: 250px;
+    width: 100%;
+}
+
+    /* .cometarios-cnt
+    {
+        height: 200px;
+    } */
+
+.arm-cnt-post
+{
+    background-color: #23343e72;
+    border-radius: 5px 5px 7px 7px;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-play-post
+{
+    width: 100%;
+    height: 100%;
+}
+
+.cnt-btn-lks
+{
+    background-color: transparent;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    padding-top: 3px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.itm-btn-lks
+{
+    border-radius: 5px;
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list-item
+{
+    border: 1px solid #333;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+.cnt-comment-cmp
+{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.textarea-comment
+{
+    background-color: #6664;
+    border-radius: 10px 0px 0px 10px;
+    width: 65%;
+    height: 75%;
+    padding: 5px 10px;
+}
+
+.sub-comm-btn, .reply-btn
+{
+    background-color: transparent;
+    border: 1px solid #6664;
+    border-radius: 0px 10px 10px 0px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    position: relative;
+}
+
+.reply-btn
+{
+    width: 40px;
+}
+
+.reply-btn img
+{
+    width: 20px;
+}
+
+.sub-comm-btn img
+{
+    width: 26px;
+}
+
+.comments-show
+{
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+    overflow-y: auto;
+}
+
+.comments
+{
+    width: 100%;
+}
+
+.comment 
+{
+    background: #f9f9f900;
+    padding: 5px 0px 5px 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    /* border: 1px solid #ddd; */
+
+    width: 100%;
+}
+
+.comment_replays
+{
+    border: 1px solid #333;
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+}
+
+.comment_replays p
+{
+    background-color: #3332;
+    border-radius: 100px 0px 0px 100px;
+    padding: 3px 10px;
+    width: 200px;
+}
+
+.img-cnt-post
+{
+    width: 100%;
+    height: 100%;
+}
+
+.my-friend-cmp, .cnt-user-mini-info
+{
+    display: flex;
+    align-items: center;
+}
+
+
+.tlt-post
+{
+    padding: 10px;
+    font-family: poppis-medium;
+    font-size: 14pt;
+}
+
+.cnt-itm-list
+{
+    width: 370px;
+    background-color: rgba(27, 36, 55, 0.256);
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px 0px;
+}
+
+.my-friend-cmp
+{
+    background-color: rgba(19, 21, 33, 0.862);
+    border: 1px solid #333;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding-left: 10px;
+    width: 80%;
+    height: 50px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.cnt-user-mini-info
+{
+    gap: 10px;
+}
+
+.cnt-image-profile
+{
+    background-color: rgba(30, 33, 51, 0.6);
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.details-button
+{
+    background-color: #0a0812;
+    width: 70px;
+    height: 100px;
+}
+
+.ls-count
+{
+    font-size: 9pt;
+    position: absolute;
+    display: block;
+    background-color:  #333;
+    border-radius: 100%;
+
+    width: 15px;
+    height: 15px;
+    top: 0;
+    right: 0;
+}

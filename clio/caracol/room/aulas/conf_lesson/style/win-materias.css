@@ -1,0 +1,516 @@
+
+*{
+    color: #333;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+    color: #aaa;
+}
+
+.win-materias {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.materias-win {
+    background-color: #444;
+    overflow: hidden;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-aside-materias {
+    background: transparent;
+    border-right: 1px solid #ccc;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.left-itm-materias {
+    background-color: transparent;
+    border-radius: 5px 0px 0px 5px;
+    width: 100%;
+    height: 90%;
+    margin-top: 10px;
+    overflow: hidden hidden;
+
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+}
+
+.frg-upd {
+    color: #aaa; 
+    background-color: #555;
+    line-height: 28px; 
+    letter-spacing: 1px; 
+    padding: 5px; 
+}
+
+.cnt-aside-itm {
+    background-color: transparent;
+}
+
+.cnt-nav {
+    padding: 50px 0px 0px  30px;
+}
+
+.lk-aside-lth {
+    color: #ccc;
+    display: block;
+    margin-top: 10px;
+
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lk-aside-lth::after {
+    content: ">";
+}
+
+.lk-aside-lth:hover {
+    background-color: #6f6f6f34;
+    padding: 5px;
+}
+
+.context-grl {
+    color: #ccc;
+    background-color: #333;
+    padding: 50px 20px;
+    margin-bottom: 100px;
+}
+
+.context-grl h1 {
+    color: #ff36ee;
+    margin-bottom: 20px;
+}
+
+.blck-less-gnr {
+    background-color: transparent;
+    padding: 30px 0px 70px 0px;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sub-blck-less {
+    background-color: #222;
+    box-shadow: 1px 2px 10px 1px #5f5f5f;
+    border-radius: 5px;
+    display: block;
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    height: 200px;
+}
+
+.lk-lesson-efect {
+    cursor: pointer;
+    background-color: transparent;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.sub-blck-less:hover {
+    background-color: #333;
+    border: 2px solid blue;
+    box-shadow: 1px 2px 10px 1px #000000bb;
+}
+
+.sub-blck-less:hover .lk-lesson-efect::after {
+    content: '->';
+    padding: 5px;
+}
+
+.sub-blck-less h2 {
+    color: #d7a66b;
+}
+
+/*============================================================
+==============================================================
+===Icons dos blocos --PROGRAMACAO--*/
+#js-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-1001.svg");
+}
+
+#jv-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-1002.svg");
+}
+
+#php-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-1003.svg");
+}
+
+#csh-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-1004.svg");
+}
+
+#cpls-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-1005.svg");
+}
+
+#pyth-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-1006.svg");
+}
+
+/*============================================================
+==============================================================
+===Icons dos blocos --ELETRONICA--*/
+#alg-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-1007.svg");
+}
+
+#ia-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-1009.svg");
+}
+
+#ard-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-1008.svg");
+}
+
+/*============================================================
+==============================================================
+===Icons dos blocos --DESENVOLVIMENTO WEB--*/
+#html-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-dev-1003.svg");
+}
+
+#css-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-dev-1001.svg");
+}
+
+#svg-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-dev-1004.svg");
+}
+
+#canvas-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-dev-1005.svg");
+}
+
+
+/*============================================================
+==============================================================
+===Icons dos blocos --MATEMATICA--*/
+#cmpy-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-mat-1002.svg");
+}
+
+#geo-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-dev-1005.svg");
+}
+
+#analy-img-icon {
+    background-image: url("../../../midia/img-co-ca-mi-mat-1001.svg");
+}
+
+.blck-img-grl {
+    background-color: #313335;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+}
+
+.itm-ond-less {
+    background-color: transparent;
+    width: 100%;
+    height: 200px;
+    padding-top: 50px;
+}
+
+.list-ond-les {
+    width: 100%;
+}
+
+.cnt-on-les {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cnt-on-les li {
+    border: 1px solid #888;
+    border-radius: 100px;
+    padding: 5px;
+}
+
+.itm-ond-les a{
+    color: #ccc;
+}
+
+.cnt-on-les li:hover {
+    background-color: #666;
+    box-shadow: 1px 2px 10px 1px #222;
+}
+
+
+
+.right-aside-materias {
+    width: 80%;
+    background-color: transparent;
+    padding: 20px;
+    overflow: hidden scroll;
+    z-index: 100;
+}
+
+/*
+========================================
+========================================
+============Header pagina de lissao*/
+.mn-header {
+   color: #222;
+   background-image: linear-gradient(to right, #0f1321, #252b46);
+   width: 100%;
+   height: 100px;
+   overflow: hidden;
+}
+
+.arm-nw-hd, .arm-list-les>.list-amd, .cmp-put, .nll-btn-cmp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.arm-nw-hd, .arm-list-les>.list-amd {
+    padding: 0px 20px;
+}
+
+.arm-nw-hd {
+    height: 65%;
+    gap: 60px;
+}
+
+.logo-esc {
+    color: rgb(0, 94, 255);
+    font-size: 21pt;
+    font-weight: bolder;
+}
+
+.cnt-frm {
+    background-color: hsl(26, 100%, 51%);
+    border-radius: 300px;
+    box-shadow: 1px 1px 10px 1px #545454;
+    padding: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#campo-procura {
+    background-color: #eee;
+    border-radius: 1000px;
+    color: #222;
+    font-size: 12pt;
+    padding: 5px 20px;
+    width: 300px;
+}
+
+.ser-btn {color: #fff;
+    font-weight: bold;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: -2px;
+    padding-right: 10px;
+}
+
+.btn-dim-pro {
+    background-color: transparent;
+}
+
+.btn-nll {
+    cursor: pointer;
+    background-color: rgb(4, 65, 163);
+    border: 2px solid #8800ff;
+    border-radius: 300px;
+    width: 35px;
+    height: 1px;
+    padding: 3px 5px;
+}
+
+.arm-list-les {
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    height: 35%;
+    width: 100%;
+}
+
+.list-amd {
+    width: 95%;
+    overflow: hidden;
+}
+
+.itm-arm-lk {
+    text-align: center;
+    background-color: transparent;
+    display: block;
+    width: 80px;
+    padding: 1px;
+}
+
+.itm-arm-lk:hover {
+    background-color: #b9b9b9;
+}
+
+.conf-pag-left-rig {
+    cursor: pointer;
+    font-size: 24px;
+    padding: 0px 10px;
+}
+
+.conf-pag-left-rig:hover {
+    background-color: #bbb;
+}
+
+#lef-scr-pag::after {
+    content: '<';
+}
+
+#rig-scr-pag::after {
+    content: '>';
+}
+
+/* @keyframes typeHd {
+    0% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
+    }
+} */
+
+/*
+=========================================
+=========================================
+========Paginas da lissão*/
+#body_lesson_page {
+    background-image: linear-gradient(20deg, #eff1fb, #fff);
+    overflow: hidden auto;
+}
+
+#main_lesson_page {
+    background-color: transparent;
+    width: 100vw;
+    height: 95vh;
+    padding: 0px 10px;
+    border-top: 1px solid #222;
+}
+
+#main_lesson_page > #scd-main-les {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.left-pag-lesson-col {
+    background-color: transparent;
+    border-right: 1px solid #222;
+    width: 23%;
+}
+
+.cnt-gen {
+    background-color: #eee;
+    padding: 10px;
+    height: 600px;
+    overflow: hidden auto;
+}
+
+.tlt-html h1, .cnt-itm-html {
+    padding: 10px;
+}
+
+.tlt-html h1 {
+    background-color: #f4f4f4;
+    margin-bottom: 0px;
+}
+
+.cnt-itm-html {
+    background-color: transparent;
+}
+
+.itm-mth a {
+    display: block;
+    margin: 2px 0px;
+    padding: 2px;
+}
+
+.itm-mth a:hover {
+    background-color: #6f6f6f34;
+}
+
+.rig-mn-les
+{
+    background-color: transparent;
+    overflow-y: scroll;
+    border-radius: 5px7;
+    width: 54%;
+    height: 100%;
+    padding: 20px;
+}
+
+.rig-mn-les::-webkit-scrollbar {
+    width: 1px;
+}
+
+.rig-mn-les::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+.rig-mn-les::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+.rig-mn-les::-webkit-scrollbar-button {
+    display: none;
+}
+
+.rig-mn-after {
+    background-color: #eee;
+    border-left: 1px solid #222;
+    width: 23%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.reserv-mn-after {
+    background-color: #ddd;
+    height: 100%;
+    width: 100%;
+}
+
+
+/*
+=========================================
+=========================================
+=====Background cursor fundo*/
+
+.back-cursor-low-col {
+    width: 1px;
+    height: 1px;
+    background-color: transparent;
+    box-shadow: 10px 10px 500px 100px #515257;
+    border-radius: 100%;
+    position: absolute;
+    pointer-events: center;
+    z-index: 10;
+}

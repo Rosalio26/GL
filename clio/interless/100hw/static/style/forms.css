@@ -1,0 +1,245 @@
+
+.body-forms
+{
+    /*background-color: #081324;*/
+    /*background-color: #081319; #240E13 */
+    /*background-color: #060E20;*/
+    background-image: linear-gradient(55deg,#211924 5%, #060E20);
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 99vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.title-form-reg-log
+{
+    border-top: 2px solid #0F2329;
+    border-right: 2px solid #0F2329;
+    border-left: 2px solid #0F2329;
+    border-radius: 7px 7px 20px 20px;
+
+    color: #777;
+    font-family: poppis-medium;
+    font-size: 16pt;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    padding: 10px;
+}
+
+.cnt-itm-form
+{
+    background-color: #1330475e;
+    border: 2px solid #4171af62;
+    border-radius: 5px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+
+    width: 350px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.message {
+    
+    background-color: #ff000025;
+    color: #ffbebe;
+    font-family: poppis-light;
+    display: none;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.error-border {
+    border: 2px solid red;
+}
+
+.error-message {
+    color: red;
+    display: none;
+}
+
+.success-message {
+    color: green;
+    display: none;
+}
+
+.reset-password
+{
+    background-color: #5551;
+    border-radius: 5px;
+    color: #09f77d50;
+    display: block;
+    font-size: 9pt;
+    width: max-content;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.border-collp
+{
+    animation: shake 0.3s;
+    border-color: #ff000038;
+}
+
+.input-forms {
+    border-color: #ff00008f;
+    animation: shake 0.3s;
+    transition: all 0.3s ease;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+
+.error-msg {
+    color: red;
+    font-size: 0.9em;
+}
+
+.itm-inp-lab.lab
+{
+    border-color: #ff00003d;
+    animation: shake 0.3s;
+    transition: all 0.3s ease;
+}
+
+.itm-inp-lab
+{
+    background-color: transparent;
+    border: 2px solid #45618b81;
+    border-radius: 10px ;
+    margin: 10px auto;
+
+    padding: 5px;
+}
+
+.spn-act-res {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    width: 100%;
+    height: 100%;
+}
+
+.itm-inp-lab > .spn-act-res > img
+{
+    width: 25px;
+}
+
+/*
+inputs
+*/
+
+.cnt-inp-lab
+{
+    background-color: #081319a7;
+    border: 2px solid #0F232E;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn-step
+{
+    background-color: transparent;
+    border: 1px solid #0F232f;
+    border-radius: 5px;
+    font-family: poppis-light;
+    font-size: 11pt;
+    padding: 5px 7px;
+}
+
+.input-forms
+{
+    background-color: #0F232E;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 11pt;
+    font-family: poppis-light;
+    padding: 5px 10px;
+    width: 230px;
+}
+
+.input-forms.input-act
+{
+    border: 1px solid #A8311F;
+}
+
+.number-phone
+{
+    width: 230px;
+    display: flex;
+}
+
+.username
+{
+    text-transform: lowercase;
+}
+
+/*
+end inputs
+*/
+
+.error-msg
+{
+    color: #A8311F;
+    background-color: #c800002b;
+    border-radius: 10px;
+    font-size: 11pt;
+    display: block;
+    width: 230px;
+    margin: 10px auto 0px auto;
+    padding: 5px;
+}
+
+.arm-reg-log
+{
+    color: #6b8da1;
+    background-color: #0F232E58;
+    border-radius: 5px;
+
+    font-size: 9.5pt;
+    font-family: poppis-light;
+    letter-spacing: 1.3px;
+
+    margin-top: 20px;
+    padding: 20px 10px;
+}
+
+.login-inc-form
+{
+    color: #836c6c;
+    font-size: 9pt;
+    background-color: #12242e;
+    padding: 0px 5px;
+    text-transform: uppercase;
+}
+
+#personalDate
+{
+    display: block;
+}
+
+.cnt-btn-bc-nx
+{
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*
+{
+    color: #aaa;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+
+    font-family: poppis-medium;
+    font-weight: 100;
+    font-size: 12pt;
+    text-decoration: none;
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: poppis-light;
+    src: url('./font/Poppins-Light.ttf');
+}
+@font-face {
+    font-family: poppis-medium;
+    src: url('./font/Poppins-Medium.ttf');
+}
+
+.body-gr
+{
+    background-color: #0c0c16;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden hidden;
+}
+
+
+/*.asp_profile
+{
+    background-color: red;
+    width: 50%;
+    height: 100%;
+    margin: 0px auto;
+}*/
